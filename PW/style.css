@@ -107,17 +107,19 @@
   }
 .descricao{
     position: absolute;
-    width: 550px;
+    width: 850px;
     height: 450px;
-    background-color: #70614f;
+    background-color: #c1af9b;
     bottom: 80px;
-    left: 800px;
+    left: 600px;
     border-radius: 10px;
 
 }
 .textdescricao{
-    color: #2d2727;
+    color: #000000;
     font-family: "Merriweather", system-ui;
+    font-size: 20px;
+    text-align: justify;
 }
 .textocontato{
     margin-left: 200px;
