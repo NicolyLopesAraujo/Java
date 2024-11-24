@@ -4,7 +4,7 @@ public class Pares {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 		
-		final int TAM = 5;
+		final int TAM = 10;
 		int i,j,a[];
 		a = new int [TAM];
 		
