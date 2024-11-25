@@ -12,7 +12,7 @@ public class ParEImpar {
 		b = new int [TAM];
 
 		par=0;
-		impar=0;
+		impar=TAM-1;
 		
 		
 		for (i=0; i<TAM; i++) {
@@ -20,17 +20,17 @@ public class ParEImpar {
 			a[i] = ler.nextInt();
 			
 			if (a[i]%2==0) {
+ 				b[par] = a[i];
 				par++;
 			}else {
-				impar++;
+				b[impar] = a[i];
+				impar--;
 			}
 		
 		
 		}
 		for (i=0;i<TAM;i++) {
-			System.out.print(par);
-			System.out.println(impar);
-			
+			System.out.println(b[i]);
 		
 		}
 		
